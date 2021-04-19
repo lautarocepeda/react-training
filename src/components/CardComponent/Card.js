@@ -38,7 +38,7 @@ class Card extends React.Component {
                 <div className="card-body">
                     <div className="row center">
                         <div className="col-6">
-                            <img src={ this.state.images } className="float-right" alt="" />
+                            <img src={ img } className="float-right" alt="" />
                         </div>
                         <div className="col-6 Fitness-Card-Info" >
                             <h1>{ title }</h1>
